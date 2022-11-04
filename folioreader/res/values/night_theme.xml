@@ -39,7 +39,7 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorAccent">@color/default_theme_accent_color</item>
+        <item name="colorAccent">@color/secondary_theme_accent_color</item>
         <!-- For ripple color -->
         <item name="colorControlHighlight">#666666</item>
         <item name="actionBarStyle">@style/ActionBarNightStyle</item>
