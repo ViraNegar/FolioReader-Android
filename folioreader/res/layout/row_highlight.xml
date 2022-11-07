@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:id="@+id/swipe_linear_layout"
@@ -34,12 +35,13 @@
         android:orientation="vertical"
         android:padding="8dp">
 
-        <TextView
+        <com.folioreader.ui.view.StyleableTextView
             android:id="@+id/tv_highlight_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="20 sep 2016"
             android:textColor="@color/black"
+            app:folio_font="@string/iransans_font"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -51,17 +53,19 @@
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
             android:ellipsize="end"
+            app:folio_font="@string/iransans_font"
             android:maxLines="3"
             android:minLines="1"
             android:textColor="@color/black"
             android:textSize="17sp" />
 
-        <TextView
+        <com.folioreader.ui.view.StyleableTextView
             android:id="@+id/tv_note"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/utv_highlight_content"
             android:ellipsize="end"
+            app:folio_font="@string/iransans_font"
             android:text=""
             android:textColor="@color/black"
             android:textSize="14sp" />

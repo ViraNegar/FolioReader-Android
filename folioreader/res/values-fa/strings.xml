@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="minutes_left">%1$d دقیقه ·&#160;</string>
+    <string name="minute_left">%1$d دقیقه ·&#160;</string>
+    <string name="less_than_minute">کمتر از یک دقیقه ·&#160;</string>
+
+    <string name="copied">کپی شد</string>
+    <string name="send_to">ارسال</string>
+
+    <string name="copy">کپی</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="define">معنی</string>
+    <string name="highlight">هایلایت</string>
+
+    <string name="pages_left">%1$d صفحه باقی‌مانده</string>
+    <string name="page_left">%1$d صفحه باقی‌مانده</string>
+    <string name="highlights">هایلایت‌ها</string>
+    <string name="style">سبک</string>
+    <string name="titlesMeta">&lt;tr&gt;&lt;td&gt;عناوین:&lt;/td&gt;</string>
+    <string name="authorsMeta">&lt;tr&gt;&lt;td&gt;نویسندگان:&lt;/td&gt;</string>
+    <string name="contributorsMeta">&lt;tr&gt;&lt;td&gt;جمع‌اورندگان:&lt;/td&gt;</string>
+    <string name="languageMeta">&lt;tr&gt;&lt;td&gt;زبان‌ها:&lt;/td&gt;&lt;td&gt;</string>
+    <string name="publishersMeta">&lt;tr&gt;&lt;td&gt;ناشران:&lt;/td&gt;</string>
+    <string name="typesMeta">&lt;tr&gt;&lt;td&gt;انواع:&lt;/td&gt;</string>
+    <string name="descriptionsMeta">&lt;tr&gt;&lt;td&gt;توضیحات:&lt;/td&gt;</string>
+    <string name="rightsMeta">&lt;tr&gt;&lt;td&gt;حقوق مادی و معنوی:&lt;/td&gt;</string>
+    <string name="tablebodyhtmlClose">&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="tocReference">&lt;tr&gt;&lt;td&gt;فهرست مطالب:&lt;/td&gt;</string>
+    <string name="change_Font">تغییر فونت</string>
+    <string name="change_Font_Color">تغییر رنگ متن:</string>
+    <string name="changeStyle">تغییر سبک</string>
+    <string name="error_CannotChangeStyle">تغییر سبک با خطا مواجه شد!</string>
+    <string name="OK">تایید</string>
+    <string name="Cancel">لغو</string>
+    <string name="SetSizeTitle">اندازه پنل بالا:</string>
+    <string name="LanguageChooserTitle">انتخاب زبان:</string>
+    <string name="loading">درحال بارگذاری</string>
+    <string name="please_wait">لطفا منتظر بمانید...</string>
+    <string name="please_wait_till_audio_is_parsed">فایل صوتی در حال پردازش است. لطفا منتظر بمانید</string>
+    <string name="edit_notes">ویرایش یادداشت‌ها</string>
+    <string name="save_note">ثبت یادداشت‌ها</string>
+    <string name="please_enter_note">یادداشت خود را وارد کنید</string>
+    <string name="contents">محتوا</string>
+
+</resources>

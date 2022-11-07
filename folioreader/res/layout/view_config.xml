@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="203dp"
+
     tools:layout_gravity="bottom">
 
     <ImageButton
@@ -50,9 +51,9 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="@string/lato"
+        android:text="@string/comicsans"
         android:textSize="17sp"
-        app:folio_font="@string/lato_font"
+        app:folio_font="@string/comicsans_font"
         app:layout_constraintEnd_toStartOf="@+id/view_config_font_lora"
         app:layout_constraintStart_toEndOf="@+id/view_config_font_andada"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
@@ -62,9 +63,9 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="@string/lora"
+        android:text="@string/iransans"
         android:textSize="17sp"
-        app:folio_font="@string/lora_font"
+        app:folio_font="@string/iransans_font"
         app:layout_constraintEnd_toStartOf="@+id/view_config_font_raleway"
         app:layout_constraintStart_toEndOf="@+id/view_config_font_lato"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
@@ -132,6 +133,7 @@
         android:id="@+id/view5"
         android:layout_width="0dp"
         android:layout_height="1dp"
+
         android:background="@color/grey_color"
         app:layout_constraintBottom_toTopOf="@+id/buttonVertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -144,8 +146,9 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:text="@string/direction_vertical"
+        android:visibility="visible"
         android:textSize="17sp"
-        app:folio_font="@string/lato_font"
+        app:folio_font="@string/iransans_font"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonHorizontal"
         app:layout_constraintStart_toStartOf="parent"
@@ -157,8 +160,9 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:text="@string/direction_horizontal"
+        android:visibility="visible"
         android:textSize="17sp"
-        app:folio_font="@string/lato_font"
+        app:folio_font="@string/iransans_font"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonVertical"

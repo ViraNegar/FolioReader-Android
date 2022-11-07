@@ -9,14 +9,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.folioreader.Config;
 import com.folioreader.Constants;
 import com.folioreader.FolioReader;
@@ -28,6 +32,7 @@ import com.folioreader.model.sqlite.HighLightTable;
 import com.folioreader.ui.adapter.HighlightAdapter;
 import com.folioreader.util.AppUtil;
 import com.folioreader.util.HighlightUtil;
+
 import org.greenrobot.eventbus.EventBus;
 
 public class HighlightFragment extends Fragment implements HighlightAdapter.HighLightAdapterCallback {
@@ -101,8 +106,9 @@ public class HighlightFragment extends Fragment implements HighlightAdapter.High
         dialog.show();
         String noteText = highlightImpl.getNote();
         ((EditText) dialog.findViewById(R.id.edit_note)).setText(noteText);
-
-        dialog.findViewById(R.id.btn_save_note).setOnClickListener(new View.OnClickListener() {
+        Button b = dialog.findViewById(R.id.btn_save_note);
+        b.setTypeface(ResourcesCompat.getFont(dialog.getContext(), R.font.iransans));
+        b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

@@ -13,7 +13,7 @@ import com.folioreader.R;
 /**
  * Created by mobisys on 7/4/2016.
  */
-public class UnderlinedTextView extends AppCompatTextView {
+public class UnderlinedTextView extends StyleableTextView {
 
     private Rect mRect;
     private Paint mPaint;

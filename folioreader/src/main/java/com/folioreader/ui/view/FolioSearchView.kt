@@ -11,6 +11,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.ColorUtils
 import com.folioreader.Config
 import com.folioreader.R
@@ -33,6 +34,7 @@ class FolioSearchView : SearchView {
         Log.v(LOG_TAG, "-> init")
 
         val searchManager: SearchManager = context.getSystemService(Context.SEARCH_SERVICE) as SearchManager
+        Log.d(LOG_TAG, "init: ${componentName.flattenToString()}")
         setSearchableInfo(searchManager.getSearchableInfo(componentName))
         setIconifiedByDefault(false)
 
@@ -49,6 +51,7 @@ class FolioSearchView : SearchView {
 
         // Remove left margin of search_edit_frame
         val searchEditFrame: View = findViewById(R.id.search_edit_frame)
+
         (searchEditFrame.layoutParams as ViewGroup.MarginLayoutParams).leftMargin = 0
     }
 
@@ -59,6 +62,7 @@ class FolioSearchView : SearchView {
         UiUtil.setColorIntToDrawable(config.themeColor, searchCloseButton.drawable)
 
         searchAutoComplete = findViewById(R.id.search_src_text)
+        searchAutoComplete.typeface = ResourcesCompat.getFont(context, R.font.iransans)
         UiUtil.setEditTextCursorColor(searchAutoComplete, config.themeColor)
         UiUtil.setEditTextHandleColor(searchAutoComplete, config.themeColor)
         searchAutoComplete.highlightColor = ColorUtils.setAlphaComponent(config.themeColor, 85)

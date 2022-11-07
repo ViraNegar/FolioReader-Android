@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="290dp"
-    android:layout_height="250dp"
+    android:layout_height="280dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:background="@android:color/transparent"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="290dp"
-        android:layout_height="250dp"
+        android:layout_height="280dp"
         android:padding="10dp"
         android:background="@color/white">
 
-        <TextView
+        <com.folioreader.ui.view.StyleableTextView
             android:id="@+id/lbl_heading"
+            app:folio_font="@string/iransans_font"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="@string/edit_notes"
-            android:textSize="23sp" />
+            android:textSize="21sp" />
 
         <EditText
             android:id="@+id/edit_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lines="5"
+            android:fontFamily="@font/iransans"
             android:gravity="start"
             android:layout_below="@id/lbl_heading"
             android:inputType="textMultiLine"

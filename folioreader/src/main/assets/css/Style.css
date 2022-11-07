@@ -196,7 +196,8 @@ html .highlight_yellow, html .highlight_green, html .highlight_blue, html .highl
  */
 
 html {
-    background-color: #FFFFFF !important;
+    background-color: #F6EFDE !important;
+    color: #2F180E;
 }
 
 body {
@@ -249,17 +250,27 @@ html.nightMode .highlight_underline {border-bottom: 2px solid rgba(240, 40, 20, 
     src: url('file:///android_asset/fonts/raleway/Raleway-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('file:///android_asset/fonts/comic/ComicSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'IRANSansXFaNum';
+    src: url('file:///android_asset/fonts/iransans/Iransans-Regular.ttf');
+}
+
 .andada {
-     font-family: "andada", sans-serif;
+     font-family: "andada", sans-serif !important;
  }
 .lato {
-     font-family: "lato", serif;
+     font-family: "Comic Sans MS", serif !important;
  }
 .lora {
-     font-family: "lora", serif;
+     font-family: "IRANSansXFaNum", serif !important;
  }
 .raleway {
-     font-family: "raleway", sans-serif;
+     font-family: "raleway", sans-serif !important;
  }
 
 html.textSizeOne { font-size: 13px !important; }

@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView
+    <com.folioreader.ui.view.StyleableTextView
         android:id="@+id/textViewCount"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?searchItemHeaderBackgroundColor"
         android:ellipsize="end"
         android:maxLines="1"
+        app:folio_font="@string/iransans_font"
         android:paddingBottom="8dp"
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
@@ -21,14 +22,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="56 results" />
+        tools:text="56 نتیجه" />
 
-    <TextView
+    <com.folioreader.ui.view.StyleableTextView
         android:id="@+id/textViewTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?searchItemHeaderBackgroundColor"
         android:ellipsize="end"
+        app:folio_font="@string/iransans_font"
         android:maxLines="1"
         android:paddingBottom="8dp"
         android:paddingEnd="16dp"
@@ -41,11 +43,12 @@
         app:layout_constraintTop_toBottomOf="@id/textViewCount"
         tools:text="Chapter 1" />
 
-    <TextView
+    <com.folioreader.ui.view.StyleableTextView
         android:id="@+id/textViewResult"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:maxLines="6"
+        app:folio_font="@string/iransans_font"
         android:paddingBottom="8dp"
         android:paddingEnd="16dp"
         android:paddingStart="16dp"

@@ -6,12 +6,14 @@
     <string name="lato">Lato</string>
     <string name="lora">Lora</string>
     <string name="iransans">ایران سنس</string>
+    <string name="comicsans">Comic Sans</string>
     <string name="raleway">Raleway</string>
 
     <string name="andada_font">fonts/andada/Andada-Regular.otf</string>
     <string name="lato_font">fonts/lato/Lato-Regular.ttf</string>
     <string name="lora_font">fonts/lora/Lora-Regular.ttf</string>
     <string name="iransans_font">fonts/iransans/Iransans-Regular.ttf</string>
+    <string name="comicsans_font">fonts/comic/ComicSans-Regular.ttf</string>
     <string name="raleway_font">fonts/raleway/Raleway-Regular.ttf</string>
 
     <string name="minutes_left">%1$d دقیقه ·&#160;</string>
@@ -81,8 +83,8 @@
     <string name="underline_highlights">
         <span style="border-bottom: 1px solid #ff0000;">%s</span>
     </string>
-    <string name="edit_notes">ویرایش یادداشت‌ها</string>
-    <string name="save_note">ثبت یادداشت‌ها</string>
+    <string name="edit_notes">ویرایش یادداشت</string>
+    <string name="save_note">ثبت یادداشت</string>
     <string name="please_enter_note">یادداشت خود را وارد کنید</string>
     <string name="contents">محتوا</string>
 
@@ -108,8 +110,8 @@
     <string name="search_failure_text">مشکلی پیش آمده است.</string>
 
     <plurals name="numberOfSearchResults">
-        <item quantity="one">%d result</item>
-        <item quantity="other">%d results</item>
+        <item quantity="one">%d نتیجه</item>
+        <item quantity="other">%d نتیجه</item>
     </plurals>
 
     <!-- JS Calls -->
