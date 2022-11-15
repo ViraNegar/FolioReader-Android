@@ -119,6 +119,22 @@ public class HomeActivity extends AppCompatActivity
                         .openBook("file:///android_asset/shit.epub");
             }
         });
+        findViewById(R.id.btn_assest4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                ReadLocator readLocator = getLastReadLocator();
+
+                Config config = AppUtil.getSavedConfig(getApplicationContext());
+                if (config == null)
+                    config = new Config();
+                config.setAllowedDirection(Config.AllowedDirection.VERTICAL_AND_HORIZONTAL);
+
+                folioReader.setReadLocator(readLocator);
+                folioReader.setConfig(config, true)
+                        .openBook("file:///android_asset/rtltest.epub");
+            }
+        });
     }
 
     private ReadLocator getLastReadLocator() {

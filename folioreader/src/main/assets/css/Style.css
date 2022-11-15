@@ -259,18 +259,30 @@ html.nightMode .highlight_underline {border-bottom: 2px solid rgba(240, 40, 20, 
     font-family: 'IRANSansXFaNum';
     src: url('file:///android_asset/fonts/iransans/Iransans-Regular.ttf');
 }
+@font-face {
+    font-family: 'B Nazanin';
+    src: url('file:///android_asset/fonts/nazanin/Nazanin-Regular.ttf');
+}
+@font-face {
+    font-family: 'Shabnam FD';
+    src: url('file:///android_asset/fonts/shabnam/Shabnam-Regular.ttf');
+}
+@font-face {
+    font-family: 'B Koodak';
+    src: url('file:///android_asset/fonts/koodak/Koodak-Regular.ttf');
+}
 
 .andada {
-     font-family: "andada", sans-serif !important;
+     font-family: "B Koodak", sans-serif !important;
  }
 .lato {
-     font-family: "Comic Sans MS", serif !important;
+     font-family: "Shabnam FD", serif !important;
  }
 .lora {
      font-family: "IRANSansXFaNum", serif !important;
  }
 .raleway {
-     font-family: "raleway", sans-serif !important;
+     font-family: "B Nazanin", sans-serif !important;
  }
 
 html.textSizeOne { font-size: 13px !important; }

@@ -6,6 +6,9 @@
     <string name="lato">Lato</string>
     <string name="lora">Lora</string>
     <string name="iransans">ایران سنس</string>
+    <string name="nazanin">نازنین</string>
+    <string name="shabnam">شبنم</string>
+    <string name="koodak">کودک</string>
     <string name="comicsans">Comic Sans</string>
     <string name="raleway">Raleway</string>
 
@@ -13,6 +16,9 @@
     <string name="lato_font">fonts/lato/Lato-Regular.ttf</string>
     <string name="lora_font">fonts/lora/Lora-Regular.ttf</string>
     <string name="iransans_font">fonts/iransans/Iransans-Regular.ttf</string>
+    <string name="nazanin_font">fonts/nazanin/Nazanin-Regular.ttf</string>
+    <string name="shabnam_font">fonts/shabnam/Shabnam-Regular.ttf</string>
+    <string name="koodak_font">fonts/koodak/Koodak-Regular.ttf</string>
     <string name="comicsans_font">fonts/comic/ComicSans-Regular.ttf</string>
     <string name="raleway_font">fonts/raleway/Raleway-Regular.ttf</string>
 
